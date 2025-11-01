@@ -28,7 +28,6 @@ public class MajorityElement2 {
                 result.add(num);
             }
         }
-
         return result;
     }
 }
