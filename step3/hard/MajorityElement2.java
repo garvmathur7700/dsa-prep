@@ -11,7 +11,7 @@ public class MajorityElement2 {
     }
 
     public static List<Integer> majorityElement (int[] nums) {
-        int n = nums.length / 3;
+        int n = nums.length/3;
         Map<Integer, Integer> mpp = new HashMap<>();
         List<Integer> result = new ArrayList<>();
         Set<Integer> resultSet = new HashSet<>();
