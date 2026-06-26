@@ -5,3 +5,6 @@ out/
 *.iml
 .idea/
 .env
+
+*.swp
+*.class

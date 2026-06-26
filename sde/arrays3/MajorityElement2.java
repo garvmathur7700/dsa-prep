@@ -1,3 +1,8 @@
+package arrays3;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class MajorityElement2 {
     public List<Integer> majorityElement(int[] nums) {
         int ele1 = Integer.MIN_VALUE;

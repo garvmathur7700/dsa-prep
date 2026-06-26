@@ -1,3 +1,5 @@
+package arrays3;
+
 class MajorityElement1 {
     public int majorityElement(int[] nums) {
         int element = Integer.MIN_VALUE;
@@ -10,7 +12,6 @@ class MajorityElement1 {
             }
             else if (num == element)
                 count++;
-            else
         }
 
         return element;

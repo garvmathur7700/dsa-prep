@@ -1,3 +1,9 @@
+package arrays2;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class MergeIntervals {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
