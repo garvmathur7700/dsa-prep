@@ -10,7 +10,6 @@ class MajorityElement1 {
             }
             else if (num == element)
                 count++;
-            else
         }
 
         return element;
