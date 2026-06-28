@@ -5,3 +5,7 @@ out/
 *.iml
 .idea/
 .env
+target/
+.project
+.classpath
+.settings
