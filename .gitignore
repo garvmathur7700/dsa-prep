@@ -5,6 +5,7 @@ out/
 *.iml
 .idea/
 .env
-
-*.swp
-*.class
+target/
+.project
+.classpath
+.settings
