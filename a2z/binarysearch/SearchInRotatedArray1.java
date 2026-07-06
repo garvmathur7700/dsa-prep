@@ -2,27 +2,18 @@ package binarysearch;
 
 public class SearchInRotatedArray1 {
   public static void main(String[] args) {
-    int[] nums = { 5, 1, 3 };
+    int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
     int target = 1;
 
     System.out.println("Target exists at index: " + search(nums, target));
   }
 
   public static int search(int[] nums, int target) {
-    if (nums.length == 1) {
-      if (nums[0] == target)
-        return 0;
-      else
-        return -1;
-    }
-
     if (nums[0] > nums[nums.length - 1]) {
       int pivot = findPivot(nums);
 
-      int answer = Math.max(binarySearch(nums, target, 0, pivot - 1),
+      return Math.max(binarySearch(nums, target, 0, pivot - 1),
           binarySearch(nums, target, pivot, nums.length - 1));
-
-      return answer;
     }
 
     return binarySearch(nums, target, 0, nums.length - 1);
