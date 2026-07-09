@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearch.arrays1d;
 
 public class CountOccurrences {
   public static void main(String[] args) {

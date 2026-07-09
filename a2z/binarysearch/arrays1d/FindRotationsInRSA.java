@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearch.arrays1d;
 
 public class FindRotationsInRSA {
     public static void main(String[] args) {

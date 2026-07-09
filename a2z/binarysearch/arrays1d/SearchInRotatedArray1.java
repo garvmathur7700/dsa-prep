@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearch.arrays1d;
 
 public class SearchInRotatedArray1 {
   public static void main(String[] args) {
